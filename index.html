@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 | Web Frontend Development 1 | Wadzanai Murombedzi</title>
+    <meta name="description" content="WDD 231 | Web Frontend Development 1 | Wadzanai Murombedzi">
+    <meta name="author" content="Wadzanai Murombedzi">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/main.js">defer</script>
+    <script src="scripts/courses.js">defer</script>
+    <script src="scripts/getdates.js">defer</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="nav">
+        <img class="profile" src="images/wawie.jpg" alt="" width="100px">
+        <span class="center">Wadzanai Murombedzi</span>
+    </header>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="Chamber of Commerce website">Chamber</a>
+        <a href="Github profile page">Github Profile</a>
+        <a href="https://www.LinkedIn.com/in/wadzanai-murombedzi-184a51b9">LinkedIn</a>
+    </nav>
+    <main>
+        <section class="card">
+            <h1>Course Work</h1>
+            <div>
+                <ul>
+                    <li>Chamber of Commerce Course Home Page</li>
+                    <li>Chamber of Commerce Directory Page</li>
+                    <li>Chamber of Commerce Home Page</li>
+                    <li>Chamber Join Page</li>
+                    <li>Chamber Discover Page</li>
+                    <li>Chamber of Commerce Project Completion</li>
+                    <li>Final Exam</li>
+                </ul>
+            </div>
+        </section>
+        <section class="card">
+            <h1>Victoria Falls, Zimbabwe</h1>
+            <picture class="subsection1">
+                <img src="images/Victoria Falls.JPG" alt=" Victoria falls" width="300" height="250">
+                <p><strong>Water Falls, Victoria falls(Scenic).</strong></p>
+            </picture>
+        </section>
+        <section class="certificate-box">
+            <h2>Web and Computer Programming certificate</h2>
+            <div class="boxButton">
+                <button class="courseButton" value="all" title="Filter button">All</button>
+                <button class="courseButton" value="cse" title="Filter button">CSE</button>
+                <button class="courseButton" value="wdd" title="Filter button">WDD</button>
+            </div>
+            <div class="boxcertificate01 boxCourse"></div>
+            <dialog id="courses-details"></dialog>
+            <p id="totalCreditsCert01">Total Credits for Certificate 1: 0</p>
+        </section>
+
+    </main>
+    <footer>
+        <p class="city">
+            &copy; <span id="currentyear"></span> ❤️ Wadzanai Murombedzi ❤️ Zimbabwe
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
