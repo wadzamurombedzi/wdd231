@@ -1,319 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Monroe Chamber of Commerce and Industry</title>
-        <meta name="author" content="Wadzanai Murombedzi">
-        <meta property="og:site_name" content="Monroe Chamber of Commerce Industry">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;700&family=Poppins&display=swap"
-            rel="stylesheet">
-        <script src="scripts/index.js" defer></script>
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/larger.css">
-    </head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyprus Chamber of Commerce and Industry</title>
+    <meta name="author" content="Wadzanai Murombedzi">
+    <meta property="og:site_name" content="Monroe Chamber of Commerce Industry">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;700&family=Poppins&display=swap"
+        rel="stylesheet">
+    <script src="scripts/index.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
-    <body class="directory-page-body">
-        <header>
-            <button class="menu-btn" aria-label="Toggle menu button">
-                <svg></svg>
-                    <use xlink:href="images/SVG/nav.jpg"></use>
-                </svg>
-            </button>
-    
-            <div class="logo-box">
-                <a href="index.html">
-                    <img src="images/chamber-logo.jpg" alt="Monroe Chamber of Commerce Industry logo" class="logo" width="130"
-                        height="130">
-                </a>
+<body class="directory-page-body">
+    <header>
+        <button class="menu-btn" aria-label="Toggle menu button">
+                <use xlink:href="images/SVG/nav.jpg"></use>
+        
+        </button>
+
+        <div class="logo-box">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="Monroe Chamber of Commerce Industry logo" class="logo">
+                <h1 id="nav-title"></h1>
+            </a>
+        </div>
+
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-links">
+                        <img src="images/home.png" width="30" alt="">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a href="discover.html" class="nav-links">
+                            <img src="images/discover.png" width="30" alt="">
+                        DISCOVER</a></li>
+                <li>
+                    <a href="directory.html" class="nav-links active">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-folder"></use>
+                        </svg>
+                        DIRECTORY
+                    </a>
+                </li>
+                <li>
+                    <a href="join.html" class="nav-links">
+                        <img src="images/join.png" width="30" alt="">
+                        JOIN
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro-section">
+            <h1>Welcome to Cyprus Chamber of Commerce Directory.</h1>
+            <p>
+                Welcome to <Strong>Cyprus Chamber of Commerce Industry Directory</Strong> where you meet a group of bussinesses that supports the interests of its members locally and Internationally. The directory is a compilation of Halloumi Cheese producers which is only produced in Cyprus. Halloumi is on the list of exports to other countries and  It adds to the Cyprus economy. Maybe you are looking for a job - Look into the incredible range of bussiness in Cyprus, you are at the right place. 
+            </p>
+        </section>
+
+        <section class="views-button-section">
+            <button role="button" id="grid-view">Grid view</button>
+            <button role="button" id="list-view">List view</button>
+        </section>
+
+        <section class="member-card-section grid">
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Drowshia Diary" width="100" height="66" loading="lazy">
+                    </div>
+                    <figcaption>Drowshia Diary</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>Laxis 24, Draiseia 8700,</p>
+                    <p>‪+357 25 22 2425‬</p>
+                    <a href="https">https://g.co/kgs/c5GZ2z</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
             </div>
-    
-            <nav class="header-nav">
-                <ul class="nav-list">
-                    <li>
-                        <a href="index.html" class="nav-links">
-                            <img src="images/home.png" width="30" alt="">
-                            HOME
-                        </a>
-                    </li>
-                    <li>
-                        <a href="discover.html" class="nav-links">
-                                <img src="images/discover.png" width="30" alt="">
-                            </svg> DISCOVER</a></li>
-                    <li>
-                        <a href="directory.html" class="nav-links active">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#icon-folder"></use>
-                            </svg>
-                            DIRECTORY
-                        </a>
-                    </li>
-                    <li>
-                        <a href="join.html" class="nav-links">
-                            <img src="images/join.png" width="30" alt="">
-                            JOIN
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    
-        <main>
-            <section class="intro-section">
-                <h1>Find out about Monroe Chamber of Commerce Directory.</h1>
-                <p>
-                    Welcome to <Strong>Monroe Chamber of Commerce Industry Directory</Strong> where you meet a group of bussinesses that supports the interests of its members locally and Internationally. The directory is a compilation of Halloumi Cheese producers which is only produced in Cyprus. Halloumi is on the list of exports to other countries and  It adds to the Cyprus economy. Maybe you are looking for a job - Look into the incredible range of bussiness in Cyprus, you are at the right place. 
-                </p>
-            </section>
-    
-            <section class="views-button-section">
-                <button role="button" id="grid-view">Grid view</button>
-                <button role="button" id="list-view">List view</button>
-            </section>
-    
-            <section class="member-card-section grid">
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Drowshia Diary" width="100" height="66" loading="lazy">
-                        </div>
-                        <figcaption>Drowshia Diary</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>Laxis 24, Draiseia 8700,</p>
-                        <p>+357 25 22 2425</p>
-                        <a href="https">https://g.co/kgs/c5GZ2z</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Axylau Traditional Cheese" width="1000"
+                            height="623" loading="lazy">
                     </div>
+                    <figcaption>Axylau Traditional Company</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>Axylau, Paphos</p>
+                    <p>+357 97 334335</p>
+                    <a href="https://facebook">https://www.facebook.com</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
                 </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Axylau Traditional Cheese" width="1000"
-                                height="623" loading="lazy">
-                        </div>
-                        <figcaption>Axylau Traditional Company</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>Axylau, Paphos</p>
-                        <p>+357 97 334335</p>
-                        <a href="https://facebook">https://www.facebook.com</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Prastitiko Cheese" width="1000" height="623"
-                                loading="lazy">
-                        </div>
-                        <figcaption>Prastitiko halloumi-cheese</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>Prastitiko Avidou, Limassol</p>
-                        <p>+357 96 786876</p>
-                        <a href="https://www">https://Prastitiko.com</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Petrou Diary" width="1000" height="623"
-                                loading="lazy">
-                        </div>
-                        <figcaption>Petrou Bros Diary Products</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>Pindarou 25, industrial Area, Larnaca </p>
-                        <p>+357 95 890098</p>
-                        <a href="https://www">https://petroubros.com.cy</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Dairy Products" width="1000"
-                                height="623" loading="lazy">
-                        </div>
-                        <figcaption>Vouyiokilakis Diary</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>Vouyiokilakis LTD, Skrinou</p>
-                        <p>+357 24 556890</p>
-                        <a href="https://www">https://vouyiokilakis.com</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="halloumi-cheese" width="1000"
-                                height="623" loading="lazy">
-                        </div>
-                        <figcaption>Papous dairy Ltd</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>Athenon, Larnaka</p>
-                        <p>+357 95 786534</p>
-                        <a href="https://www">https://www.papousdiaries.com</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Halloumi" width="1000" height="623"
-                                loading="lazy">
-                        </div>
-                        <figcaption>Achnagal Diaries</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>Dasaki Anchros, 5523, Ammohostos</p>
-                        <p>+357 22498657</p>
-                        <a href="https://www">https://ammohostosdiaries.com</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Diaries" width="1000" height="623"
-                                loading="lazy">
-                        </div>
-                        <figcaption>Demetrious Fresh Diary</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>3 Archangel street, Cyprus</p>
-                        <p>+357 89652347</p>
-                        <a href="https://www">htttps://www.freshpack.cy</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="" width="1000" height="623"
-                                loading="lazy">
-                        </div>
-                        <figcaption>Wadzanai Halloumi Cheese</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>345, Larnaca</p>
-                        <p>+357 97 453789</p>
-                        <a href="https">https://wadzanai.cy</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-    
-                <div class="member-card">
-                    <figure>
-                        <div>
-                            <img src="images/halloumi-cheese.jpg" alt="Cyprus Cheese" width="1000" height="623"
-                                loading="lazy">
-                        </div>
-                        <figcaption>Cyprus Cheese</figcaption>
-                    </figure>
-                    <div class="member-info-box">
-                        <p>45, Yadakj strees, Paphos</p>
-                        <p>+357 769805</p>
-                        <a href="https://www">https://cypruscheese.cy</a>
-                        <img src="images/tick.png" alt="" width="45" height="64">
-                    </div>
-                </div>
-            </section>
-        </main>
-    
-        <footer>
-            <div class="contact-box">
-                <p class="footer-captions">Contact Us</p>
-                <address>
-                    <a href="wmurombedzi@byui.edu"> 📩wadzanaimurombedzi@outlook.com</a>
-                    <!-- <br> -->
-                    <a href="tel:+357 97979797">📞 +357 97979797 </a>
-                    <p>🏠 Flat No 4,</p>
-                    <p>Kiti, Larnaca</p>
-                    <p>Cyprus</p>
-                </address>
             </div>
-            <div class="quick-link-box">
-                <p class="footer-captions">Quick Links</p>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join Us</a></li>
-                </ul>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Prastitiko Cheese" width="1000" height="623"
+                            loading="lazy">
+                    </div>
+                    <figcaption>Prastitiko halloumi-cheese</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>Prastitiko Avidou, Limassol</p>
+                    <p>+357 96 786876</p>
+                    <a href="https://www">https://Prastitiko.com</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
             </div>
-            <div class="footer-socials">
-                <p class="footer-captions">Stay Connected</p>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/wadzamurombedzi//" target="_blank" class="footer-social-links"
-                            aria-label="Visit Wadzanai's Instagram page">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#icon-instagram-with-circle"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/wadzanai-murombedzi-184a51b9/" target="_blank" class="footer-social-links"
-                            aria-label="Visit Wadzanai's LinkedIn account LinkedIn account">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#icon-linkedin-with-circle"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100009138703676/" target="_blank"
-                            class="footer-social-links" aria-label=" visit Wadzanai's Facebook account">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/" target="_blank" class="footer-social-links"
-                            aria-label="Go to Youtube.com homepage">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#icon-youtube-with-circle"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Petrou Diary" width="1000" height="623"
+                            loading="lazy">
+                    </div>
+                    <figcaption>Petrou Bros Diary Products</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>Pindarou 25, industrial Area, Larnaca </p>
+                    <p>+357 95 890098</p>
+                    <a href="https://www">https://petroubros.com.cy</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
             </div>
-            <div class="copyright-box">
-                <p>
-                    ©
-                    <span id="year">2025</span>
-                    .:|:. Wadzanai Murombedzi || WDD231-004 .:|:. Zimbabwean Citizen
-                </p>
-                <p>
-                    Last modified:
-                    <span class="last-modify">3/29/2025 - 15:56:59 GMT+0200 (Eastern European Standard Time)</span>
-                </p>
-                <p id="analytics"></p>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Dairy Products" width="1000"
+                            height="623" loading="lazy">
+                    </div>
+                    <figcaption>Vouyiokilakis Diary</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>Vouyiokilakis LTD, Skrinou</p>
+                    <p>+357 24 556890</p>
+                    <a href="https://www">https://vouyiokilakis.com</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
             </div>
-        </footer>
-    
-    
-    </body>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="halloumi-cheese" width="1000"
+                            height="623" loading="lazy">
+                    </div>
+                    <figcaption>Papous dairy Ltd</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>Athenon, Larnaka</p>
+                    <p>+357 95 786534</p>
+                    <a href="https://www">https://www.papousdiaries.com</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
+            </div>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Halloumi" width="1000" height="623"
+                            loading="lazy">
+                    </div>
+                    <figcaption>Achnagal Diaries</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>Dasaki Anchros, 5523, Ammohostos</p>
+                    <p>+357 22498657</p>
+                    <a href="https://www">https://ammohostosdiaries.com</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
+            </div>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Diaries" width="1000" height="623"
+                            loading="lazy">
+                    </div>
+                    <figcaption>Demetrious Fresh Diary</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>3 Archangel street, Cyprus</p>
+                    <p>+357 89652347</p>
+                    <a href="https://www">htttps://www.freshpack.cy</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
+            </div>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="" width="1000" height="623"
+                            loading="lazy">
+                    </div>
+                    <figcaption>Wadzanai Halloumi Cheese</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>345, Larnaca</p>
+                    <p>+357 97 453789</p>
+                    <a href="https">https://wadzanai.cy</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
+            </div>
+
+            <div class="member-card">
+                <figure>
+                    <div>
+                        <img src="images/halloumi-cheese.jpg" alt="Cyprus Cheese" width="1000" height="623"
+                            loading="lazy">
+                    </div>
+                    <figcaption>Cyprus Cheese</figcaption>
+                </figure>
+                <div class="member-info-box">
+                    <p>45, Yadakj strees, Paphos</p>
+                    <p>+357 769805</p>
+                    <a href="https://www">https://cypruscheese.cy</a>
+                    <img src="images/tick.png" alt="" width="45" height="64">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-box">
+            <p class="footer-captions">Contact Us</p>
+            <address>
+                <a href="wmurombedzi@byui.edu"> 📩wadzanaimurombedzi@outlook.com</a>
+                <!-- <br> -->
+                <a href="tel:+357 97979797">📞 +357 97979797 </a>
+                <p>🏠 Flat No 4,</p>
+                <p>Kiti, Larnaca</p>
+                <p>Cyprus</p>
+            </address>
+        </div>
+        <div class="quick-link-box">
+            <p class="footer-captions">Quick Links</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-socials">
+            <p class="footer-captions">Stay Connected</p>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/wadzamurombedzi//" target="_blank" class="footer-social-links"
+                        aria-label="Visit Wadzanai's Instagram page">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-instagram-with-circle"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/wadzanai-murombedzi-184a51b9/" target="_blank" class="footer-social-links"
+                        aria-label="Visit Wadzanai's LinkedIn account LinkedIn account">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-linkedin-with-circle"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100009138703676/" target="_blank"
+                        class="footer-social-links" aria-label=" visit Wadzanai's Facebook account">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" class="footer-social-links"
+                        aria-label="Go to Youtube.com homepage">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-youtube-with-circle"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright-box">
+            <p>
+                ©
+                <span id="year">2025</span>
+                .:|:. Wadzanai Murombedzi || WDD231-004 .:|:. Zimbabwean Citizen
+            </p>
+            <p>
+                Last modified:
+                <span class="last-modify">3/29/2025 - 15:56:59 GMT+0200 (Eastern European Standard Time)</span>
+            </p>
+            <p id="analytics"></p>
+        </div>
+    </footer>
+</body>
 </html>
